@@ -1,0 +1,84 @@
+#topbar
+{
+    background-color: white;
+    height: 30px;
+    width: 100%;
+}
+h2
+{
+  float: left;  
+  color: rgb(135, 71, 196);
+  margin-left: 100px;
+ }
+
+ul
+{
+    float: right;
+}
+ul li 
+{
+    display: inline;
+    margin-right: 40px;
+}
+ul li a 
+{
+    color: blueviolet;
+}
+section
+{
+    background-image: url(3.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+    width: 100vw;
+
+}
+.container{
+    margin-left: 10vw;
+    width: 40vw;
+    position: relative;
+    top:25vh;
+    line-height: 4px;
+}   
+p
+{
+   line-height: 16px;
+}
+h3
+{
+   margin-bottom: 0px;
+}
+.logos
+{
+    display: flex;
+    width: 160px; 
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-top: 30px;
+   
+    
+}
+.log
+{
+    width: 27px;
+    height: 27px;
+    border: 2px solid rgb(47, 186, 228);
+    border-radius: 60px;
+    
+}
+button
+{
+    height: 35px;
+    width: 175px;
+    margin-top: 30px;
+    font-weight: bolder;
+    font-size: 17px;
+    background-color: aqua;
+    top: 25px;
+    border-width: 0px;
+}
+ol
+{
+    line-height: 20px;
+    padding-left: 10px;
+}
